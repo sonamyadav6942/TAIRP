@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Application</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="titleCard">
+        <p class="title"><span>Weather </span>App</p>
+        <p class="desc">Get the current weather details of any city</p>
+    </div>
+
+    <div class="card">
+        <input type="text" id="cityInput" class="inputBox" placeholder="Enter city name">
+        <button id="searchBtn" class="btnSearch">Search</button>
+    </div>
+
+     
+    <div id="outputCard" class="output">
+        <div class="cityNameCard">
+        <p id="city-name"></p>
+        <p id="countryName"></p>
+        </div>
+        <div class="tempCard">
+            <p id="temp"></p><sup id="sup"></sup>
+        </div>
+        <p id="loc-time"></p>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
